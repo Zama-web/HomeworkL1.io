@@ -1,0 +1,55 @@
+body {
+	background-color: lightgreen;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.container {
+	display: flex;
+	flex-direction: column;
+	margin: 30px;
+	padding: 10px;
+	width: 50%;
+	height: auto;
+	box-shadow: 0 0 10px black;
+	background-color: lightblue;
+}
+
+label {
+	margin-top: 10px;
+	color: darkgreen;
+	font-size: 20px;
+}
+
+input {
+	width: 50%;
+	margin-top: 10px;
+	font-size: 18px;
+	color: darkgreen;
+}
+
+button {
+	margin: 10px 0 20px 0;
+	font-size: 18px;
+	background-color: green;
+	color: yellow;
+	cursor: pointer;
+	width: 100px;
+}
+
+li{
+	margin-bottom: 10px;
+}
+li {
+	cursor: pointer;
+	color: darkgreen;
+	font-size: 18px;
+}
+
+p:hover {
+	text-decoration: underline;
+}
